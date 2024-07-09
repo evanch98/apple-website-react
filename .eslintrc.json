@@ -6,6 +6,9 @@
     "prettier"
   ],
   "plugins": ["prettier"],
+  "globals": {
+    "React": "readonly"
+  },
   "rules": {
     "max-len": [2, 250],
     "no-multiple-empty-lines": [
