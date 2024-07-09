@@ -5,6 +5,7 @@
     "plugin:tailwindcss/recommended",
     "prettier"
   ],
+  "plugins": ["prettier"],
   "rules": {
     "max-len": [2, 250],
     "no-multiple-empty-lines": [
@@ -14,6 +15,7 @@
         "maxEOF": 1
       }
     ],
-    "object-curly-newline": 0
+    "object-curly-newline": 0,
+    "prettier/prettier": "warn"
   }
 }
