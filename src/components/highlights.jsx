@@ -14,7 +14,7 @@ const Highlights = () => {
       y: 0,
     });
     gsap.to('.link', {
-      scrollTrigger: { trigger: '#link' },
+      scrollTrigger: { trigger: '.link' },
       opacity: 1,
       y: 0,
       duration: 1,
