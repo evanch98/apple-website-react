@@ -5,7 +5,7 @@
     "plugin:tailwindcss/recommended",
     "prettier"
   ],
-  "plugins": ["prettier"],
+  "plugins": ["prettier", "@react-three"],
   "globals": {
     "React": "readonly"
   },
