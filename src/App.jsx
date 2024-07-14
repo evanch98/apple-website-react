@@ -6,6 +6,7 @@ import Story from './components/Story';
 import HowItWorks from './components/HowItWorks';
 
 import * as Sentry from '@sentry/react';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Model />
       <Story />
       <HowItWorks />
+      <Footer />
     </main>
   );
 };
