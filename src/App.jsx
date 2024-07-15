@@ -6,13 +6,13 @@ import HowItWorks from './components/HowItWorks';
 import * as Sentry from '@sentry/react';
 import Footer from './components/Footer';
 import Navbar from './components/Nav';
-import Hero from './components/HeroSection';
+import HeroSection from './components/HeroSection';
 
 const App = () => {
   return (
     <main className="bg-black">
       <Navbar />
-      <Hero />
+      <HeroSection />
       <Features />
       <Model />
       <Story />
