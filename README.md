@@ -1,8 +1,36 @@
-# React + Vite
+# apple-website-react
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+Recreating Apple Website using React, Tailwind CSS, Three.js, React Three Fiber, and Gsap.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
+
+These instructions will help you set up and run the project on your local machine for development and testing purposes.
+
+1. **Clone the repository:**
+```bash
+git clone https://github.com/evanch98/apple-website-react.git
+cd your-repo-name
+```
+
+2. **Install the required dependencies:**
+```bash
+npm install
+```
+
+3. **Run the development server:**
+```bash
+npm run dev
+```
+The development server will run on `localhost:5173`.
+
+## Technologies Used
+- `React`
+- `JavaScript`
+- `Tailwind CSS`
+- `Three.js`
+- `@react-three/fiber`
+- `@react-three/drei`
+- `Gsap`
+- `Vite`
