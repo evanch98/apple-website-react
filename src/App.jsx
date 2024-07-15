@@ -1,4 +1,3 @@
-import Hero from './components/HeroSection';
 import Model from './components/Model';
 import Features from './components/Features';
 import Story from './components/Story';
@@ -7,6 +6,7 @@ import HowItWorks from './components/HowItWorks';
 import * as Sentry from '@sentry/react';
 import Footer from './components/Footer';
 import Navbar from './components/Nav';
+import Hero from './components/HeroSection';
 
 const App = () => {
   return (
