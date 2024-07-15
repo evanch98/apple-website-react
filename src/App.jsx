@@ -1,4 +1,4 @@
-import Hero from './components/Hero';
+import Hero from './components/HeroSection';
 import Model from './components/Model';
 import Features from './components/Features';
 import Story from './components/Story';
